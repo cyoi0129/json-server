@@ -1,12 +1,42 @@
 {
-    "movie":[
-        {
-            "id":1,
-            "name":"test1"
+    "food": [{
+            "id": 1,
+            "name": "Ramen",
+            "image": "1.jpg",
+            "price": 1000
         },
         {
-            "id":2,
-            "name":"test2"
+            "id": 2,
+            "name": "Sushi",
+            "image": "2.jpg",
+            "price": 800
+        },
+        {
+            "id": 3,
+            "name": "Steak",
+            "image": "3.jpg",
+            "price": 750
+        },
+        {
+            "id": 4,
+            "name": "Hamburger",
+            "image": "4.jpg",
+            "price": 1200
+        }
+    ],
+    "shop": [{
+            "id": 1,
+            "name": "Tokyo Store",
+            "station": "Tokyo",
+            "phone": "0312345678",
+            "address": "1-2-3 Chiyoda, Chiyoda-ku Tokyo"
+        },
+        {
+            "id": 2,
+            "name": "Osaka Store",
+            "station": "Shin-Osaka",
+            "phone": "0612345678",
+            "address": "1-2-3 Shinsaibashi, Chuou-ku Osaka"
         }
     ]
 }
