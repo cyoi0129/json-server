@@ -1,11 +1,15 @@
 {
     "user": [{
             "id": 1,
-            "name": "Test User 1"
+            "name": "Test User 1",
+            "email": "test1@test-user.com",
+            "password": "test1"
         },
         {
             "id": 2,
-            "name": "Test User 2"
+            "name": "Test User 2",
+            "email": "test2@test-user.com",
+            "password": "test2"
         }
     ],
     "food": [{
@@ -37,15 +41,73 @@
             "id": 1,
             "name": "Tokyo Store",
             "station": "Tokyo",
-            "phone": "0312345678",
-            "address": "1-2-3 Chiyoda, Chiyoda-ku Tokyo"
+            "address": "1-2-3 Chiyoda, Chiyoda-ku Tokyo",
+            "lat": 35.69575,
+            "lng": 139.77521
         },
         {
             "id": 2,
             "name": "Osaka Store",
             "station": "Shin-Osaka",
             "phone": "0612345678",
-            "address": "1-2-3 Shinsaibashi, Chuou-ku Osaka"
+            "address": "1-2-3 Shinsaibashi, Chuou-ku Osaka",
+            "lat": 35.69575,
+            "lng": 139.77521
+        }
+    ],
+    "order": [{
+            "id": 1,
+            "time": "2021/1/1 13:00:00",
+            "ready": true,
+            "user": 1,
+            "shop": 1,
+            "total": 2600,
+            "items": [{
+                    "item": {
+                        "id": 1,
+                        "name": "Ramen",
+                        "image": "1.jpg",
+                        "price": 1000
+                    },
+                    "amount": 1
+                },
+                {
+                    "item": {
+                        "id": 2,
+                        "name": "Sushi",
+                        "image": "2.jpg",
+                        "price": 800
+                    },
+                    "amount": 2
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "time": "2021/2/2 14:00:00",
+            "ready": false,
+            "user": 2,
+            "shop": 2,
+            "total": 3900,
+            "items": [{
+                    "item": {
+                        "id": 4,
+                        "name": "Hamburger",
+                        "image": "4.jpg",
+                        "price": 1200
+                    },
+                    "amount": 2
+                },
+                {
+                    "item": {
+                        "id": 3,
+                        "name": "Steak",
+                        "image": "3.jpg",
+                        "price": 750
+                    },
+                    "amount": 2
+                }
+            ]
         }
     ]
 }
