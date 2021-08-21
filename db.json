@@ -1,15 +1,15 @@
 {
     "user": [{
             "id": 1,
-            "name": "Test User 1",
+            "name": "tester1",
             "email": "test1@test-user.com",
-            "password": "test1"
+            "password": "tester1"
         },
         {
             "id": 2,
-            "name": "Test User 2",
+            "name": "tester2",
             "email": "test2@test-user.com",
-            "password": "test2"
+            "password": "tester2"
         }
     ],
     "food": [{
