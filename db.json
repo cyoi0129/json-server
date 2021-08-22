@@ -58,6 +58,8 @@
     "order": [{
             "id": 1,
             "time": "2021/1/1 13:00:00",
+            "receipt": "12:00",
+            "payment": true,
             "ready": true,
             "user": 1,
             "shop": 1,
@@ -85,6 +87,8 @@
         {
             "id": 2,
             "time": "2021/2/2 14:00:00",
+            "receipt": "13:00",
+            "payment": false,
             "ready": false,
             "user": 2,
             "shop": 2,
