@@ -3,13 +3,31 @@
             "id": 1,
             "name": "tester1",
             "email": "test1@test-user.com",
-            "password": "tester1"
+            "password": "test1",
+            "cardNumber": "4100123456789999",
+            "cardName": "tester1Card1",
+            "cardExpiry": "1124",
+            "cardCvc": "321"
         },
         {
             "id": 2,
             "name": "tester2",
             "email": "test2@test-user.com",
-            "password": "tester2"
+            "password": "test2",
+            "cardNumber": "3500123456789999",
+            "cardName": "tester2Card",
+            "cardExpiry": "1224",
+            "cardCvc": "333"
+        },
+        {
+            "id": 3,
+            "name": "tester3",
+            "email": "test3@test-user.com",
+            "password": "test3",
+            "cardNumber": "",
+            "cardName": "",
+            "cardExpiry": "",
+            "cardCvc": ""
         }
     ],
     "food": [{
@@ -58,8 +76,7 @@
     "order": [{
             "id": 1,
             "time": "2021/1/1 13:00:00",
-            "receipt": "12:00",
-            "payment": true,
+            "pickup": "ASAP",
             "ready": true,
             "user": 1,
             "shop": 1,
@@ -87,8 +104,7 @@
         {
             "id": 2,
             "time": "2021/2/2 14:00:00",
-            "receipt": "13:00",
-            "payment": false,
+            "pickup": "ASAP",
             "ready": false,
             "user": 2,
             "shop": 2,
@@ -110,6 +126,63 @@
                         "price": 750
                     },
                     "amount": 2
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "ready": false,
+            "time": "2021/08/21 12:21:05",
+            "pickup": "12:00",
+            "user": 1,
+            "shop": 1,
+            "total": 9400,
+            "items": [{
+                    "item": {
+                        "id": 1,
+                        "name": "Ramen",
+                        "image": "1.jpg",
+                        "price": 1000
+                    },
+                    "amount": 3
+                },
+                {
+                    "item": {
+                        "id": 2,
+                        "name": "Sushi",
+                        "image": "2.jpg",
+                        "price": 800
+                    },
+                    "amount": 8
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "ready": false,
+            "time": "2021/08/26 22:30:55",
+            "pickup": "12:30",
+            "payment": false,
+            "user": 2,
+            "shop": 1,
+            "total": 3750,
+            "items": [{
+                    "item": {
+                        "id": 1,
+                        "name": "Ramen",
+                        "image": "1.jpg",
+                        "price": 1000
+                    },
+                    "amount": 3
+                },
+                {
+                    "item": {
+                        "id": 3,
+                        "name": "Steak",
+                        "image": "3.jpg",
+                        "price": 750
+                    },
+                    "amount": 1
                 }
             ]
         }
