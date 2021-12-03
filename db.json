@@ -186,5 +186,52 @@
                 }
             ]
         }
+    ],
+    "editor": {
+    "account": {
+        "id": 1,
+        "name": "tester1",
+        "email": "tester1@test.com",
+        "password": "testpassword1"
+    },
+    "cateogry": [{
+            "id": 1,
+            "name": "category1"
+        },
+        {
+            "id": 2,
+            "name": "category2"
+        }
+    ],
+    "tag": [{
+            "id": 1,
+            "name": "tag1"
+        },
+        {
+            "id": 2,
+            "name": "tag2"
+        }
+    ],
+    "post": [{
+            "id": 1,
+            "title": "Test post 1",
+            "description": "Test description Test description Test description Test description",
+            "thumbnail": "sample.jpg",
+            "content": "",
+            "category": 1,
+            "tag": [1, 2],
+            "date": "2021-9-13"
+        },
+        {
+            "id": 2,
+            "title": "Test post 1",
+            "description": "Test description Test description Test description Test description",
+            "thumbnail": "",
+            "content": "",
+            "category": 2,
+            "tag": [1],
+            "date": "2021-10-14"
+        }
     ]
+}
 }
