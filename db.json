@@ -1,4 +1,250 @@
 {
+    "inshop": {
+        "user": {
+            "first_name": "Michale",
+            "last_name": "Jordan",
+            "sex": "male",
+            "area": 1,
+            "phone": "09012345678",
+            "mail": "test@example.com",
+            "zip": "1234567",
+            "city": "Tokyo",
+            "address": "Chiyoda-ku Chiyoda 1-1-1"
+        },
+        "order": [{
+                "id": 1,
+                "time": "2022/3/13 10:00:00",
+                "status": "Shipping",
+                "amount": 3,
+                "total": 12345
+            },
+            {
+                "id": 2,
+                "time": "2022/3/23 10:00:00",
+                "status": "Delivered",
+                "amount": 5,
+                "total": 32345
+            }
+        ],
+        "cart": [{
+                "id": 3,
+                "image": "/img/product.jpg",
+                "name": "Product Name Product Name Product Name Product Name",
+                "price": 1234,
+                "size": "M",
+                "color": "Red",
+                "amount": 1
+            },
+            {
+                "id": 4,
+                "image": "/img/product.jpg",
+                "name": "Product Name Product Name Product Name Product Name",
+                "price": 1234,
+                "size": "M",
+                "color": "Red",
+                "amount": 1
+            }
+        ],
+        "products": [{
+                "id": 1,
+                "image": "/img/product.jpg",
+                "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
+                "price": null,
+                "oldPrice": 2345,
+                "newPrice": 1111
+            },
+            {
+                "id": 2,
+                "image": "/img/product.jpg",
+                "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
+                "price": null,
+                "oldPrice": 2345,
+                "newPrice": 1111
+            },
+            {
+                "id": 3,
+                "image": "/img/product.jpg",
+                "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
+                "price": null,
+                "oldPrice": 2345,
+                "newPrice": 1111
+            },
+            {
+                "id": 4,
+                "image": "/img/product.jpg",
+                "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
+                "price": null,
+                "oldPrice": 2345,
+                "newPrice": 1111
+            }, {
+                "id": 5,
+                "image": "/img/product.jpg",
+                "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
+                "price": null,
+                "oldPrice": 2345,
+                "newPrice": 1111
+            },
+            {
+                "id": 6,
+                "image": "/img/product.jpg",
+                "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
+                "price": null,
+                "oldPrice": 2345,
+                "newPrice": 1111
+            },
+            {
+                "id": 7,
+                "image": "/img/product.jpg",
+                "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name ",
+                "price": 1234,
+                "oldPrice": null,
+                "newPrice": null
+            },
+            {
+                "id": 8,
+                "image": "/img/product.jpg",
+                "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
+                "price": 1234,
+                "oldPrice": null,
+                "newPrice": null
+            },
+            {
+                "id": 9,
+                "image": "/img/product.jpg",
+                "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
+                "price": 1234,
+                "oldPrice": null,
+                "newPrice": null
+            },
+            {
+                "id": 10,
+                "image": "/img/product.jpg",
+                "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
+                "price": 1234,
+                "oldPrice": null,
+                "newPrice": null
+            },
+            {
+                "id": 11,
+                "image": "/img/product.jpg",
+                "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
+                "price": 1234,
+                "oldPrice": null,
+                "newPrice": null
+            },
+            {
+                "id": 12,
+                "image": "/img/product.jpg",
+                "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
+                "price": 1234,
+                "oldPrice": null,
+                "newPrice": null
+            }
+        ],
+        "master": {
+            "size": [{
+                    "id": 1,
+                    "name": "S"
+                },
+                {
+                    "id": 2,
+                    "name": "M"
+                },
+                {
+                    "id": 3,
+                    "name": "L"
+                }
+            ],
+            "color": [{
+                    "id": 1,
+                    "name": "Red"
+                },
+                {
+                    "id": 2,
+                    "name": "Black"
+                },
+                {
+                    "id": 3,
+                    "name": "Blue"
+                }
+            ],
+            "category": [{
+                    "id": 1,
+                    "name": "Coat"
+                },
+                {
+                    "id": 2,
+                    "name": "Shirts"
+                },
+                {
+                    "id": 3,
+                    "name": "Shoes"
+                }
+            ],
+            "payment": [{
+                    "id": 1,
+                    "name": "Credit Card"
+                },
+                {
+                    "id": 2,
+                    "name": "Cash on delivery"
+                },
+                {
+                    "id": 3,
+                    "name": "Paypal"
+                }
+            ],
+            "ship": [{
+                    "id": 1,
+                    "name": "Free Delivery"
+                },
+                {
+                    "id": 2,
+                    "name": "Oversea Delivery"
+                }
+            ],
+            "area": [{
+                    "id": 1,
+                    "name": "Japan"
+                },
+                {
+                    "id": 2,
+                    "name": "USA"
+                },
+                {
+                    "id": 3,
+                    "name": "UK"
+                }
+            ],
+            "language": [{
+                    "id": 1,
+                    "name": "Japanese"
+                },
+                {
+                    "id": 2,
+                    "name": "English"
+                },
+                {
+                    "id": 3,
+                    "name": "Chinese"
+                }
+            ],
+            "currency": [{
+                    "id": 1,
+                    "name": "JPY"
+                },
+                {
+                    "id": 2,
+                    "name": "USD"
+                },
+                {
+                    "id": 3,
+                    "name": "CNY"
+                }
+            ]
+
+        }
+    },
     "user": [{
             "id": 1,
             "name": "tester1",
@@ -188,296 +434,50 @@
         }
     ],
     "editor": {
-    "account": {
-        "id": 1,
-        "name": "tester1",
-        "email": "tester1@test.com",
-        "password": "testpassword1"
-    },
-    "cateogry": [{
+        "account": {
             "id": 1,
-            "name": "category1"
+            "name": "tester1",
+            "email": "tester1@test.com",
+            "password": "testpassword1"
         },
-        {
-            "id": 2,
-            "name": "category2"
-        }
-    ],
-    "tag": [{
-            "id": 1,
-            "name": "tag1"
-        },
-        {
-            "id": 2,
-            "name": "tag2"
-        }
-    ],
-    "post": [{
-            "id": 1,
-            "title": "Test post 1",
-            "description": "Test description Test description Test description Test description",
-            "thumbnail": "sample.jpg",
-            "content": "",
-            "category": 1,
-            "tag": [1, 2],
-            "date": "2021-9-13"
-        },
-        {
-            "id": 2,
-            "title": "Test post 1",
-            "description": "Test description Test description Test description Test description",
-            "thumbnail": "",
-            "content": "",
-            "category": 2,
-            "tag": [1],
-            "date": "2021-10-14"
-        }
-    ]
-},
-    "inshop": {
-    "user": {
-        "first_name": "Michale",
-        "last_name": "Jordan",
-        "sex": "male",
-        "area": 1,
-        "phone": "09012345678",
-        "mail": "test@example.com",
-        "zip": "1234567",
-        "city": "Tokyo",
-        "address": "Chiyoda-ku Chiyoda 1-1-1"
-    },
-    "order": [{
-            "id": 1,
-            "time": "2022/3/13 10:00:00",
-            "status": "Shipping",
-            "amount": 3,
-            "total": 12345
-        },
-        {
-            "id": 2,
-            "time": "2022/3/23 10:00:00",
-            "status": "Delivered",
-            "amount": 5,
-            "total": 32345
-        }
-    ],
-    "cart": [{
-            "id": 3,
-            "image": "/img/product.jpg",
-            "name": "Product Name Product Name Product Name Product Name",
-            "price": 1234,
-            "size": "M",
-            "color": "Red",
-            "amount": 1
-        },
-        {
-            "id": 4,
-            "image": "/img/product.jpg",
-            "name": "Product Name Product Name Product Name Product Name",
-            "price": 1234,
-            "size": "M",
-            "color": "Red",
-            "amount": 1
-        }
-    ],
-    "products": [{
-            "id": 1,
-            "image": "/img/product.jpg",
-            "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
-            "price": null,
-            "oldPrice": 2345,
-            "newPrice": 1111
-        },
-        {
-            "id": 2,
-            "image": "/img/product.jpg",
-            "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
-            "price": null,
-            "oldPrice": 2345,
-            "newPrice": 1111
-        },
-        {
-            "id": 3,
-            "image": "/img/product.jpg",
-            "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
-            "price": null,
-            "oldPrice": 2345,
-            "newPrice": 1111
-        },
-        {
-            "id": 4,
-            "image": "/img/product.jpg",
-            "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
-            "price": null,
-            "oldPrice": 2345,
-            "newPrice": 1111
-        }, {
-            "id": 5,
-            "image": "/img/product.jpg",
-            "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
-            "price": null,
-            "oldPrice": 2345,
-            "newPrice": 1111
-        },
-        {
-            "id": 6,
-            "image": "/img/product.jpg",
-            "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
-            "price": null,
-            "oldPrice": 2345,
-            "newPrice": 1111
-        },
-        {
-            "id": 7,
-            "image": "/img/product.jpg",
-            "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name ",
-            "price": 1234,
-            "oldPrice": null,
-            "newPrice": null
-        },
-        {
-            "id": 8,
-            "image": "/img/product.jpg",
-            "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
-            "price": 1234,
-            "oldPrice": null,
-            "newPrice": null
-        },
-        {
-            "id": 9,
-            "image": "/img/product.jpg",
-            "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
-            "price": 1234,
-            "oldPrice": null,
-            "newPrice": null
-        },
-        {
-            "id": 10,
-            "image": "/img/product.jpg",
-            "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
-            "price": 1234,
-            "oldPrice": null,
-            "newPrice": null
-        },
-        {
-            "id": 11,
-            "image": "/img/product.jpg",
-            "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
-            "price": 1234,
-            "oldPrice": null,
-            "newPrice": null
-        },
-        {
-            "id": 12,
-            "image": "/img/product.jpg",
-            "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
-            "price": 1234,
-            "oldPrice": null,
-            "newPrice": null
-        }
-    ],
-    "master": {
-        "size": [{
+        "cateogry": [{
                 "id": 1,
-                "name": "S"
+                "name": "category1"
             },
             {
                 "id": 2,
-                "name": "M"
-            },
-            {
-                "id": 3,
-                "name": "L"
+                "name": "category2"
             }
         ],
-        "color": [{
+        "tag": [{
                 "id": 1,
-                "name": "Red"
+                "name": "tag1"
             },
             {
                 "id": 2,
-                "name": "Black"
-            },
-            {
-                "id": 3,
-                "name": "Blue"
+                "name": "tag2"
             }
         ],
-        "category": [{
+        "post": [{
                 "id": 1,
-                "name": "Coat"
+                "title": "Test post 1",
+                "description": "Test description Test description Test description Test description",
+                "thumbnail": "sample.jpg",
+                "content": "",
+                "category": 1,
+                "tag": [1, 2],
+                "date": "2021-9-13"
             },
             {
                 "id": 2,
-                "name": "Shirts"
-            },
-            {
-                "id": 3,
-                "name": "Shoes"
-            }
-        ],
-        "payment": [{
-                "id": 1,
-                "name": "Credit Card"
-            },
-            {
-                "id": 2,
-                "name": "Cash on delivery"
-            },
-            {
-                "id": 3,
-                "name": "Paypal"
-            }
-        ],
-        "ship": [{
-                "id": 1,
-                "name": "Free Delivery"
-            },
-            {
-                "id": 2,
-                "name": "Oversea Delivery"
-            }
-        ],
-        "area": [{
-                "id": 1,
-                "name": "Japan"
-            },
-            {
-                "id": 2,
-                "name": "USA"
-            },
-            {
-                "id": 3,
-                "name": "UK"
-            }
-        ],
-        "language": [{
-                "id": 1,
-                "name": "Japanese"
-            },
-            {
-                "id": 2,
-                "name": "English"
-            },
-            {
-                "id": 3,
-                "name": "Chinese"
-            }
-        ],
-        "currency": [{
-                "id": 1,
-                "name": "JPY"
-            },
-            {
-                "id": 2,
-                "name": "USD"
-            },
-            {
-                "id": 3,
-                "name": "CNY"
+                "title": "Test post 1",
+                "description": "Test description Test description Test description Test description",
+                "thumbnail": "",
+                "content": "",
+                "category": 2,
+                "tag": [1],
+                "date": "2021-10-14"
             }
         ]
-
     }
-}
 }
