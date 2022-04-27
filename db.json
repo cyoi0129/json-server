@@ -91,54 +91,6 @@
                 "price": null,
                 "oldPrice": 2345,
                 "newPrice": 1111
-            },
-            {
-                "id": 7,
-                "image": "/img/product.jpg",
-                "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name ",
-                "price": 1234,
-                "oldPrice": null,
-                "newPrice": null
-            },
-            {
-                "id": 8,
-                "image": "/img/product.jpg",
-                "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
-                "price": 1234,
-                "oldPrice": null,
-                "newPrice": null
-            },
-            {
-                "id": 9,
-                "image": "/img/product.jpg",
-                "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
-                "price": 1234,
-                "oldPrice": null,
-                "newPrice": null
-            },
-            {
-                "id": 10,
-                "image": "/img/product.jpg",
-                "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
-                "price": 1234,
-                "oldPrice": null,
-                "newPrice": null
-            },
-            {
-                "id": 11,
-                "image": "/img/product.jpg",
-                "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
-                "price": 1234,
-                "oldPrice": null,
-                "newPrice": null
-            },
-            {
-                "id": 12,
-                "image": "/img/product.jpg",
-                "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
-                "price": 1234,
-                "oldPrice": null,
-                "newPrice": null
             }
         ],
         "master": {
@@ -264,16 +216,6 @@
             "cardName": "tester2Card",
             "cardExpiry": "1224",
             "cardCvc": "333"
-        },
-        {
-            "id": 3,
-            "name": "tester3",
-            "email": "test3@test-user.com",
-            "password": "test3",
-            "cardNumber": "",
-            "cardName": "",
-            "cardExpiry": "",
-            "cardCvc": ""
         }
     ],
     "food": [{
@@ -293,32 +235,16 @@
             "name": "Steak",
             "image": "3.jpg",
             "price": 750
-        },
-        {
-            "id": 4,
-            "name": "Hamburger",
-            "image": "4.jpg",
-            "price": 1200
         }
     ],
     "shop": [{
-            "id": 1,
-            "name": "Tokyo Store",
-            "station": "Tokyo",
-            "address": "1-2-3 Chiyoda, Chiyoda-ku Tokyo",
-            "lat": 35.69575,
-            "lng": 139.77521
-        },
-        {
-            "id": 2,
-            "name": "Osaka Store",
-            "station": "Shin-Osaka",
-            "phone": "0612345678",
-            "address": "1-2-3 Shinsaibashi, Chuou-ku Osaka",
-            "lat": 35.69575,
-            "lng": 139.77521
-        }
-    ],
+        "id": 1,
+        "name": "Tokyo Store",
+        "station": "Tokyo",
+        "address": "1-2-3 Chiyoda, Chiyoda-ku Tokyo",
+        "lat": 35.69575,
+        "lng": 139.77521
+    }],
     "order": [{
             "id": 1,
             "time": "2021/1/1 13:00:00",
@@ -374,63 +300,53 @@
                     "amount": 2
                 }
             ]
-        },
-        {
-            "id": 3,
-            "ready": false,
-            "time": "2021/08/21 12:21:05",
-            "pickup": "12:00",
-            "user": 1,
-            "shop": 1,
-            "total": 9400,
-            "items": [{
-                    "item": {
-                        "id": 1,
-                        "name": "Ramen",
-                        "image": "1.jpg",
-                        "price": 1000
-                    },
-                    "amount": 3
-                },
-                {
-                    "item": {
-                        "id": 2,
-                        "name": "Sushi",
-                        "image": "2.jpg",
-                        "price": 800
-                    },
-                    "amount": 8
-                }
-            ]
-        },
-        {
-            "id": 4,
-            "ready": false,
-            "time": "2021/08/26 22:30:55",
-            "pickup": "12:30",
-            "payment": false,
-            "user": 2,
-            "shop": 1,
-            "total": 3750,
-            "items": [{
-                    "item": {
-                        "id": 1,
-                        "name": "Ramen",
-                        "image": "1.jpg",
-                        "price": 1000
-                    },
-                    "amount": 3
-                },
-                {
-                    "item": {
-                        "id": 3,
-                        "name": "Steak",
-                        "image": "3.jpg",
-                        "price": 750
-                    },
-                    "amount": 1
-                }
-            ]
         }
-    ]
+    ],
+    "editor": {
+        "account": {
+            "id": 1,
+            "name": "tester1",
+            "email": "tester1@test.com",
+            "password": "testpassword1"
+        },
+        "cateogry": [{
+                "id": 1,
+                "name": "category1"
+            },
+            {
+                "id": 2,
+                "name": "category2"
+            }
+        ],
+        "tag": [{
+                "id": 1,
+                "name": "tag1"
+            },
+            {
+                "id": 2,
+                "name": "tag2"
+            }
+        ],
+        "post": [{
+                "id": 1,
+                "title": "Test post 1",
+                "description": "Test description Test description Test description Test description",
+                "thumbnail": "sample.jpg",
+                "content": "",
+                "category": 1,
+                "tag": [1, 2],
+                "date": "2021-9-13"
+            },
+            {
+                "id": 2,
+                "title": "Test post 1",
+                "description": "Test description Test description Test description Test description",
+                "thumbnail": "",
+                "content": "",
+                "category": 2,
+                "tag": [1],
+                "date": "2021-10-14"
+            }
+        ]
+    }
 }
