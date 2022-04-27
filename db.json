@@ -1,352 +1,198 @@
 {
-    "inshop": {
-        "user": {
-            "first_name": "Michale",
-            "last_name": "Jordan",
-            "sex": "male",
-            "area": 1,
-            "phone": "09012345678",
-            "mail": "test@example.com",
-            "zip": "1234567",
-            "city": "Tokyo",
-            "address": "Chiyoda-ku Chiyoda 1-1-1"
-        },
-        "order": [{
-                "id": 1,
-                "time": "2022/3/13 10:00:00",
-                "status": "Shipping",
-                "amount": 3,
-                "total": 12345
-            },
-            {
-                "id": 2,
-                "time": "2022/3/23 10:00:00",
-                "status": "Delivered",
-                "amount": 5,
-                "total": 32345
-            }
-        ],
-        "cart": [{
-                "id": 3,
-                "image": "/img/product.jpg",
-                "name": "Product Name Product Name Product Name Product Name",
-                "price": 1234,
-                "size": "M",
-                "color": "Red",
-                "amount": 1
-            },
-            {
-                "id": 4,
-                "image": "/img/product.jpg",
-                "name": "Product Name Product Name Product Name Product Name",
-                "price": 1234,
-                "size": "M",
-                "color": "Red",
-                "amount": 1
-            }
-        ],
-        "products": [{
-                "id": 1,
-                "image": "/img/product.jpg",
-                "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
-                "price": null,
-                "oldPrice": 2345,
-                "newPrice": 1111
-            },
-            {
-                "id": 2,
-                "image": "/img/product.jpg",
-                "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
-                "price": null,
-                "oldPrice": 2345,
-                "newPrice": 1111
-            },
-            {
-                "id": 3,
-                "image": "/img/product.jpg",
-                "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
-                "price": null,
-                "oldPrice": 2345,
-                "newPrice": 1111
-            },
-            {
-                "id": 4,
-                "image": "/img/product.jpg",
-                "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
-                "price": null,
-                "oldPrice": 2345,
-                "newPrice": 1111
-            }, {
-                "id": 5,
-                "image": "/img/product.jpg",
-                "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
-                "price": null,
-                "oldPrice": 2345,
-                "newPrice": 1111
-            },
-            {
-                "id": 6,
-                "image": "/img/product.jpg",
-                "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
-                "price": null,
-                "oldPrice": 2345,
-                "newPrice": 1111
-            }
-        ],
-        "master": {
-            "size": [{
-                    "id": 1,
-                    "name": "S"
-                },
-                {
-                    "id": 2,
-                    "name": "M"
-                },
-                {
-                    "id": 3,
-                    "name": "L"
-                }
-            ],
-            "color": [{
-                    "id": 1,
-                    "name": "Red"
-                },
-                {
-                    "id": 2,
-                    "name": "Black"
-                },
-                {
-                    "id": 3,
-                    "name": "Blue"
-                }
-            ],
-            "category": [{
-                    "id": 1,
-                    "name": "Coat"
-                },
-                {
-                    "id": 2,
-                    "name": "Shirts"
-                },
-                {
-                    "id": 3,
-                    "name": "Shoes"
-                }
-            ],
-            "payment": [{
-                    "id": 1,
-                    "name": "Credit Card"
-                },
-                {
-                    "id": 2,
-                    "name": "Cash on delivery"
-                },
-                {
-                    "id": 3,
-                    "name": "Paypal"
-                }
-            ],
-            "ship": [{
-                    "id": 1,
-                    "name": "Free Delivery"
-                },
-                {
-                    "id": 2,
-                    "name": "Oversea Delivery"
-                }
-            ],
-            "area": [{
-                    "id": 1,
-                    "name": "Japan"
-                },
-                {
-                    "id": 2,
-                    "name": "USA"
-                },
-                {
-                    "id": 3,
-                    "name": "UK"
-                }
-            ],
-            "language": [{
-                    "id": 1,
-                    "name": "Japanese"
-                },
-                {
-                    "id": 2,
-                    "name": "English"
-                },
-                {
-                    "id": 3,
-                    "name": "Chinese"
-                }
-            ],
-            "currency": [{
-                    "id": 1,
-                    "name": "JPY"
-                },
-                {
-                    "id": 2,
-                    "name": "USD"
-                },
-                {
-                    "id": 3,
-                    "name": "CNY"
-                }
-            ]
-
-        }
+    "user": {
+        "first_name": "Michale",
+        "last_name": "Jordan",
+        "sex": "male",
+        "area": 1,
+        "phone": "09012345678",
+        "mail": "test@example.com",
+        "zip": "1234567",
+        "city": "Tokyo",
+        "address": "Chiyoda-ku Chiyoda 1-1-1"
     },
-    "user": [{
+    "order": [{
             "id": 1,
-            "name": "tester1",
-            "email": "test1@test-user.com",
-            "password": "test1",
-            "cardNumber": "4100123456789999",
-            "cardName": "tester1Card1",
-            "cardExpiry": "1124",
-            "cardCvc": "321"
+            "time": "2022/3/13 10:00:00",
+            "status": "Shipping",
+            "amount": 3,
+            "total": 12345
         },
         {
             "id": 2,
-            "name": "tester2",
-            "email": "test2@test-user.com",
-            "password": "test2",
-            "cardNumber": "3500123456789999",
-            "cardName": "tester2Card",
-            "cardExpiry": "1224",
-            "cardCvc": "333"
+            "time": "2022/3/23 10:00:00",
+            "status": "Delivered",
+            "amount": 5,
+            "total": 32345
         }
     ],
-    "food": [{
+    "cart": [{
+            "id": 3,
+            "image": "/img/product.jpg",
+            "name": "Product Name Product Name Product Name Product Name",
+            "price": 1234,
+            "size": "M",
+            "color": "Red",
+            "amount": 1
+        },
+        {
+            "id": 4,
+            "image": "/img/product.jpg",
+            "name": "Product Name Product Name Product Name Product Name",
+            "price": 1234,
+            "size": "M",
+            "color": "Red",
+            "amount": 1
+        }
+    ],
+    "products": [{
             "id": 1,
-            "name": "Ramen",
-            "image": "1.jpg",
-            "price": 1000
+            "image": "/img/product.jpg",
+            "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
+            "price": null,
+            "oldPrice": 2345,
+            "newPrice": 1111
         },
         {
             "id": 2,
-            "name": "Sushi",
-            "image": "2.jpg",
-            "price": 800
+            "image": "/img/product.jpg",
+            "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
+            "price": null,
+            "oldPrice": 2345,
+            "newPrice": 1111
         },
         {
             "id": 3,
-            "name": "Steak",
-            "image": "3.jpg",
-            "price": 750
-        }
-    ],
-    "shop": [{
-        "id": 1,
-        "name": "Tokyo Store",
-        "station": "Tokyo",
-        "address": "1-2-3 Chiyoda, Chiyoda-ku Tokyo",
-        "lat": 35.69575,
-        "lng": 139.77521
-    }],
-    "order": [{
-            "id": 1,
-            "time": "2021/1/1 13:00:00",
-            "pickup": "ASAP",
-            "ready": true,
-            "user": 1,
-            "shop": 1,
-            "total": 2600,
-            "items": [{
-                    "item": {
-                        "id": 1,
-                        "name": "Ramen",
-                        "image": "1.jpg",
-                        "price": 1000
-                    },
-                    "amount": 1
-                },
-                {
-                    "item": {
-                        "id": 2,
-                        "name": "Sushi",
-                        "image": "2.jpg",
-                        "price": 800
-                    },
-                    "amount": 2
-                }
-            ]
+            "image": "/img/product.jpg",
+            "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
+            "price": null,
+            "oldPrice": 2345,
+            "newPrice": 1111
         },
         {
-            "id": 2,
-            "time": "2021/2/2 14:00:00",
-            "pickup": "ASAP",
-            "ready": false,
-            "user": 2,
-            "shop": 2,
-            "total": 3900,
-            "items": [{
-                    "item": {
-                        "id": 4,
-                        "name": "Hamburger",
-                        "image": "4.jpg",
-                        "price": 1200
-                    },
-                    "amount": 2
-                },
-                {
-                    "item": {
-                        "id": 3,
-                        "name": "Steak",
-                        "image": "3.jpg",
-                        "price": 750
-                    },
-                    "amount": 2
-                }
-            ]
+            "id": 4,
+            "image": "/img/product.jpg",
+            "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
+            "price": null,
+            "oldPrice": 2345,
+            "newPrice": 1111
+        }, {
+            "id": 5,
+            "image": "/img/product.jpg",
+            "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
+            "price": null,
+            "oldPrice": 2345,
+            "newPrice": 1111
+        },
+        {
+            "id": 6,
+            "image": "/img/product.jpg",
+            "name": "Product Name Product Name Product Name Product Name Product Name Product Name Product Name Product Name",
+            "price": null,
+            "oldPrice": 2345,
+            "newPrice": 1111
         }
     ],
-    "editor": {
-        "account": {
-            "id": 1,
-            "name": "tester1",
-            "email": "tester1@test.com",
-            "password": "testpassword1"
-        },
-        "cateogry": [{
+    "master": {
+        "size": [{
                 "id": 1,
-                "name": "category1"
+                "name": "S"
             },
             {
                 "id": 2,
-                "name": "category2"
+                "name": "M"
+            },
+            {
+                "id": 3,
+                "name": "L"
             }
         ],
-        "tag": [{
+        "color": [{
                 "id": 1,
-                "name": "tag1"
+                "name": "Red"
             },
             {
                 "id": 2,
-                "name": "tag2"
+                "name": "Black"
+            },
+            {
+                "id": 3,
+                "name": "Blue"
             }
         ],
-        "post": [{
+        "category": [{
                 "id": 1,
-                "title": "Test post 1",
-                "description": "Test description Test description Test description Test description",
-                "thumbnail": "sample.jpg",
-                "content": "",
-                "category": 1,
-                "tag": [1, 2],
-                "date": "2021-9-13"
+                "name": "Coat"
             },
             {
                 "id": 2,
-                "title": "Test post 1",
-                "description": "Test description Test description Test description Test description",
-                "thumbnail": "",
-                "content": "",
-                "category": 2,
-                "tag": [1],
-                "date": "2021-10-14"
+                "name": "Shirts"
+            },
+            {
+                "id": 3,
+                "name": "Shoes"
+            }
+        ],
+        "payment": [{
+                "id": 1,
+                "name": "Credit Card"
+            },
+            {
+                "id": 2,
+                "name": "Cash on delivery"
+            },
+            {
+                "id": 3,
+                "name": "Paypal"
+            }
+        ],
+        "ship": [{
+                "id": 1,
+                "name": "Free Delivery"
+            },
+            {
+                "id": 2,
+                "name": "Oversea Delivery"
+            }
+        ],
+        "area": [{
+                "id": 1,
+                "name": "Japan"
+            },
+            {
+                "id": 2,
+                "name": "USA"
+            },
+            {
+                "id": 3,
+                "name": "UK"
+            }
+        ],
+        "language": [{
+                "id": 1,
+                "name": "Japanese"
+            },
+            {
+                "id": 2,
+                "name": "English"
+            },
+            {
+                "id": 3,
+                "name": "Chinese"
+            }
+        ],
+        "currency": [{
+                "id": 1,
+                "name": "JPY"
+            },
+            {
+                "id": 2,
+                "name": "USD"
+            },
+            {
+                "id": 3,
+                "name": "CNY"
             }
         ]
+
     }
 }
