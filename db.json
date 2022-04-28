@@ -140,6 +140,168 @@
             "newPrice": null
         }
     ],
+    "product": [{
+        "id": 1,
+        "name": "Product Name Product Name Product Name",
+        "description": "Introduce this product Introduce this product Introduce this product Introduce this product Introduce this product",
+        "price": null,
+        "oldPrice": 4567,
+        "newPrice": 3210,
+        "ship": [{
+            "id": 1,
+            "name": "Free Delivery"
+        }],
+        "payment": [{
+            "id": 1,
+            "name": "Credit Card"
+        }, {
+            "id": 3,
+            "name": "Paypal"
+        }],
+        "image": [{
+                "id": 1,
+                "name": "Product Image 1",
+                "url": "/img/product.jpg"
+            },
+            {
+                "id": 2,
+                "name": "Product Image 2",
+                "url": "/img/product.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Product Image 3",
+                "url": "/img/product.jpg"
+            },
+            {
+                "id": 4,
+                "name": "Product Image 4",
+                "url": "/img/product.jpg"
+            }
+        ],
+        "size": [{
+                "id": 1,
+                "name": "S",
+                "color": [{
+                        "id": 1,
+                        "name": "Red",
+                        "amount": 5
+                    },
+                    {
+                        "id": 2,
+                        "name": "Black",
+                        "amount": 6
+                    },
+                    {
+                        "id": 3,
+                        "name": "Blue",
+                        "amount": 7
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "M",
+                "color": [{
+                        "id": 1,
+                        "name": "Red",
+                        "amount": 5
+                    },
+                    {
+                        "id": 2,
+                        "name": "Black",
+                        "amount": 6
+                    },
+                    {
+                        "id": 3,
+                        "name": "Blue",
+                        "amount": 7
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "L",
+                "color": [{
+                        "id": 1,
+                        "name": "Red",
+                        "amount": 5
+                    },
+                    {
+                        "id": 2,
+                        "name": "Black",
+                        "amount": 6
+                    },
+                    {
+                        "id": 3,
+                        "name": "Blue",
+                        "amount": 7
+                    }
+                ]
+            }
+        ],
+        "color": [{
+                "id": 1,
+                "name": "Red",
+                "size": [{
+                        "id": 1,
+                        "name": "S",
+                        "amount": 5
+                    },
+                    {
+                        "id": 2,
+                        "name": "M",
+                        "amount": 6
+                    },
+                    {
+                        "id": 3,
+                        "name": "L",
+                        "amount": 7
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Black",
+                "size": [{
+                        "id": 1,
+                        "name": "S",
+                        "amount": 5
+                    },
+                    {
+                        "id": 2,
+                        "name": "M",
+                        "amount": 6
+                    },
+                    {
+                        "id": 3,
+                        "name": "L",
+                        "amount": 7
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Blue",
+                "size": [{
+                        "id": 1,
+                        "name": "S",
+                        "amount": 5
+                    },
+                    {
+                        "id": 2,
+                        "name": "M",
+                        "amount": 6
+                    },
+                    {
+                        "id": 3,
+                        "name": "L",
+                        "amount": 7
+                    }
+                ]
+            }
+        ]
+    }],
     "master": {
         "size": [{
                 "id": 1,
